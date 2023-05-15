@@ -9,11 +9,12 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+//@Service
 public class MemberService {
     private final MemberRepository memberRepository;
-    @Autowired
+//    @Autowired
     public MemberService(MemberRepository memberRepository) {
+
         this.memberRepository = memberRepository; // 의존성 주입
     }
 
